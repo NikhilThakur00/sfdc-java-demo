@@ -2,7 +2,7 @@ package com.capgeminisfdc;
 
 import java.util.Scanner;
 
-public class Assignment6 
+public class AssignmentC6 
 {public static void main(String[] args) 
 	{System.out.println("Sum and Product of the digits in given number");
 	 Scanner sc= new Scanner(System.in);

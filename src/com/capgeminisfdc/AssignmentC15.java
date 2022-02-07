@@ -8,17 +8,18 @@ public class AssignmentC15
 	 Scanner sc= new Scanner(System.in);
 	 System.out.println("Enter the number");
 	 int num=sc.nextInt();
-	 if (num<=1);
-	    System.out.println("not prime");
-	 for (int i=2;i<=sqrt(num);i++) {
+	 int temp=0;
+	 int i;
+	 for(i=2;i<num;i++) {
+		 if (num%i==0) {temp=temp+1;
+		 }
 		 
 	 }
-	 
-	
+	if(temp==0) {
+		System.out.println("Given no is a prime number");
 	}
-
-private static int sqrt(int num) {
-	// TODO Auto-generated method stub
-	return 0;
+	else {
+		System.out.println("Given no is not a prime number");
+	}
 }
 }
