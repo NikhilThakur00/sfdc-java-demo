@@ -1,5 +1,5 @@
 package com.capgemini.sfdc.ex;
-
+//throw is used basically to the exceptions which we want to generate or we want to restrict or take action for the exception 
 import java.util.Scanner;
 
 public class ExDemo3 {
