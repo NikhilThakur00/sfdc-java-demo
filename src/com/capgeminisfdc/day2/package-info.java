@@ -1,1 +1,0 @@
-package com.capgeminisfdc.day2;
